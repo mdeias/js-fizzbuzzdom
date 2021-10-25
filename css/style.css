@@ -1,6 +1,8 @@
 body{
     background-color: #083B4C;
     color: white;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .container h1{
@@ -17,16 +19,31 @@ body{
     justify-content: center;
     align-items: center;
     border: 2px solid white;
+    transition: 2s;
+    box-shadow: 2px 2px 5px slategray;
 }
 
-.per-3{
+.box:hover{
+    transform: scale(1.2);
+    border-radius: 15px;
+}
+
+.box:active{
+    transform: scale(0.8);
+    border-radius: 15px;
+}
+
+.box.per-3{
     background-color: #0AD6A1;
+    color: red;
 }
 
-.per-5{
+.box.per-5{
     background-color: #FFD166;
+    color:royalblue
 }
 
-.comuni{
+.box.comuni{
     background-color: #F0466F;
+    color: springgreen;
 }
