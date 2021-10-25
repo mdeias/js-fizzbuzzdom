@@ -1,0 +1,32 @@
+body{
+    background-color: #083B4C;
+    color: white;
+}
+
+.container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.box{
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    background-color: #1389B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.per-3{
+    background-color: #0AD6A1;
+}
+
+.per-5{
+    background-color: #FFD166;
+}
+
+.comuni{
+    background-color: #F0466F;
+}
