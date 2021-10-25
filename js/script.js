@@ -12,16 +12,18 @@ for (let i = 1; i <= 100; i++) {
 
 // condizioni
 
-    if (!(i % 3)) {
+    if (!(i % 3) && !(i % 5)) {
+        box.classList.add("comuni");
+    }
+
+    else if (!(i % 3)) {
         box.classList.add("per-3");
     }
 
-    if (!(i % 5)) {
+    else if (!(i % 5)) {
         box.classList.add("per-5");
     }
-
-    if (!(i % 5) && !(i % 3)) {
-        box.classList.add("comuni");
-    }
 }
+
+
 
